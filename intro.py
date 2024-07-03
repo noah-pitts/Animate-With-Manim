@@ -4,6 +4,7 @@ from manim import *
 class CreateShapes(Scene):
     def construct(self):
 
+        
         triangle = Triangle()  # create a triangle
         triangle.set_fill(BLUE, opacity=1)  # set the color and transparency
         self.play(Create(triangle))  # show the triangle on screen
